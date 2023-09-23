@@ -29,8 +29,8 @@ h1 {
 }
 
 .memory-game {
-  width: 950px;
-  height: 950px;
+  width: 650px;
+  height: 450px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
