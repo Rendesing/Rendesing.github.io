@@ -43,8 +43,8 @@ h1 {
 }
 
 .memory-card {
-  width: calc(40% - 20px);
-  height: calc(40% - 20px);
+  width: calc(25% - 20px);
+  height: calc(25% - 20px);
   margin: 2px;
   position: relative;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
