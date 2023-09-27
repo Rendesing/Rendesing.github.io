@@ -63,7 +63,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 const startTime = new Date().getTime();
 
 // 目標時間(要倒數幾秒)。
-const targetSeconds = 35;
+const targetSeconds = 45;
 
 // 初始化。
 init(targetSeconds);
