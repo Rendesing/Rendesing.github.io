@@ -95,3 +95,28 @@ h1 {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
+
+.progessbar {
+  position: relative;
+  text-align: center;
+  border: 1px dashed blue;
+  height: 16px;
+  width: 250px;
+}
+
+.progessbar .text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  line-height: 16px;
+  z-index: 10;
+}
+
+.progessbar .bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 16px;
+  background-color: green;
+}
