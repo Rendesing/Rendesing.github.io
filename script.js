@@ -57,5 +57,15 @@ function resetBoard() {
   });
 })();
 
+function start(){
+//   按下 start 後 id 為 timer 的 DIV 內容可以開始倒數到到 0。 
+  var timer = document.querySelector("#timer");
+  var number = 60;
+  setInterval(function(){
+    number -- ;
+    if(number <= 0 )
+      number = 0;
+    timer.innerText = number + 0 }, 1000);
+}
 
 cards.forEach(card => card.addEventListener('click', flipCard));
